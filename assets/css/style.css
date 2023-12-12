@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+}
+
+header .left-side a img {
+    width: 80px;
+}
+
+header .right-side {
+    display: flex;
+}
+
+header .right-side .nav-wrapper a {
+    padding: 10px;
+    max-width: 10px;
+    text-decoration: none;
+    color: #222222;
+    font-weight: 1000;
+}
+
+.container {
+    display: flex;
+    max-width: 80%;
+    margin: 50px auto;
+}
+
+.container .left-side {
+    text-align: center;
+}
+
+.container .left-side h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.container .left-side h1 .green {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container .left-side p {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.container .left-side a {
+    display: inline-block;
+    text-decoration: none;
+    background: green;
+    padding: 12px 18px 12px 18px;
+    border-radius: 25px;
+    color: aliceblue;
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+.container .right-side {
+    flex: 1;
+    text-align: center;
+}
+
+.container .right-side img {
+    width: 300px;
+    margin-left: 350px;
+    margin-top: 86px;
+}
+
+.container .right-side .box {
+    display: grid;
+    position: absolute;
+    bottom: 40%;
+    right: 0%;
+}
+
+.container .right-side .box img {
+    width: 25px;
+    margin: 10px;
+}
+
+.container .right-side .box img.facebook {
+    width: 18.5px;
+}
+
+.thumb {
+    display: flex;
+    margin-top: -60px;
+    justify-content: center;
+}
+
+.thumb a:hover {
+    margin-top: -15px;
+    transition: 0.2s;
+}
+
+.thumb img {
+    width: 74px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+@media (max-width: 1140px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 10px auto;
+    }
+    
+}
