@@ -1,3 +1,3 @@
 function imgSlider(url) {
-    document.querySelector("starbucks").src = url
+    document.querySelector(".starbucks").src = url
 }
